@@ -2,6 +2,17 @@
 
 This project implements an Autonomous Landing Scene Recognition system for drones based on Transfer Learning techniques using Convolutional Neural Networks (CNN). It leverages ResNet50 and ResNeXt50 models for scene classification and enhances accuracy by combining them with Random Forest classifiers in an ensemble model.
 
+## OUTPUT SCREENS
+![Screenshot 2025-04-08 184945](https://github.com/user-attachments/assets/753a80e3-7b45-44e5-8d49-bee4317b7c1d)
+
+![Screenshot 2025-04-08 185000](https://github.com/user-attachments/assets/05806702-9c28-4d2b-be39-e0c90e175696)
+
+![Screenshot 2025-04-08 185021](https://github.com/user-attachments/assets/85103c40-9601-4a54-b012-dc5cd6576c80)
+
+![Screenshot 2025-04-08 185059](https://github.com/user-attachments/assets/0f404ca0-a1b2-40db-8657-a58fe2079331)
+
+
+
 ## Features
 Dataset: Uses a dataset of aerial landing scene images categorized into 7 classes: Building, Field, Lawn, Mountain, Road, Vehicles, WaterArea, and Wilderness.
 
