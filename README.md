@@ -74,23 +74,6 @@ ResNeXt50: A more advanced transfer learning model that uses group convolutions 
 
 Ensemble Random Forest: A hybrid model that combines the feature extraction power of ResNeXt50 with the decision-making ability of a Random Forest classifier for better classification accuracy.
 
-## Directory Structure
-bash
-Copy
-Edit
-/Autonomous-Landing-Scene-Recognition
-│
-├── /LandingDataset                # Dataset directory containing subdirectories of images for each class
-│
-├── /model                         # Folder to save models, weights, and training history
-│   ├── resnext_weights.hdf5
-│   ├── resnet_weights.hdf5
-│   └── resnext_history.pckl
-│
-├── /testImages                    # Folder for storing test images to predict from
-│
-├── /main.py                       # Main script that runs the GUI and models
-└── requirements.txt               # List of required Python packages
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
